@@ -38,7 +38,9 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'api.apps.ApiConfig', # reference the function ApiConfig from the apps filr
-    "rest_framework" # another app neede
+    'rest_framework', # another app needed
+    'frontend.apps.FrontendConfig'
+
 ]
 
 MIDDLEWARE = [

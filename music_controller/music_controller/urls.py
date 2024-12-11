@@ -19,7 +19,8 @@ from django.urls import path , include
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('',include('api.urls'))
+    path('',include('api.urls')),
+    path('',include('frontend.urls'))
 ]
 
 # this is where the main urls is found. directly after the domain . e.g domain.com/hello
