@@ -20,4 +20,4 @@ from .models import Room
 
 class RoomView(generics.CreateAPIView): # this will alow us to create and view room
     queryset = Room.objects.all()
-    serializer_class = Roomserializer
+    serializer_class = Roomserializer 
